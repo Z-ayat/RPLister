@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "League Spartan", opensans;
+    transition: 0.3s all;
+    display: grid;
+    place-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(180, 29%, 50%);
+    overflow-x: hidden;
+}
+body{
+    background-color: #f2fafb;
+    margin: 0 auto;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.rounded-circle{
+    border-radius: 50%;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    margin:40px 0;
+    padding-inline: 50px;
+    background-color: #ffffff;
+}
+.card{
+    display: flex;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px 1px #6aa2a3;
+    margin:20px 0;
+}
+.text-wrapper{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.whereto{
+    display: flex;
+    gap: 5px;
+    margin: 8px 0;
+}
+.text-wrapper span{
+    border-radius: 18px;
+    background-color: #69a4a5;
+    padding: 5px 8px;
+    color: white;
+    font-weight: bold;
+}
+.text-wrapper span:first-of-type{
+    background-color: hsl(180, 8%, 52%);
+}
+.howMuch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e3a3a;
+    border-radius: 8px;
+    padding: 0.5rem 0.8rem;
+    width: max-content;
+    color: #fff;
+    font-weight: bold;
+}
+.formcard form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.formcard input {
+    width: 100%;
+}

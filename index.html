@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Job Listings</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=League+Spartan:100,200,300,regular,500,600,700,800,900"
+    rel="stylesheet" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="images/bg-header-desktop.svg" alt="">
+  </header>
+  <div class="container">
+    <div class="card formcard">
+      <form action="">
+        <select name="" id="missionType">
+          <option value="Kill With ">Kill</option>
+          <option value="Use">Use</option>
+          <option value="Spend">Spend</option>
+          <option value="Complete">Complete</option>
+          <option value="PickUp">Pick Up</option>
+        </select>
+        <select name="" id="specMission">
+          <option value="M416">M416</option>
+          <option value="AKM">AKM</option>
+          <option value="FlareGun">Flare Gun</option>
+          <option value="Pistol">Pistol</option>
+        </select>
+        <select name="" id="map">
+          <option value="Erangel">Erangel</option>
+          <option value="Sanhok">Sanhok</option>
+          <option value="Livik">Livik</option>
+          <option value="Miramar">Miramar</option>
+        </select>
+        <input type="number" name="ach" id="ach" placeholder="Achieved">
+        <input type="number" name="qty" id="qty" placeholder="Requrired">
+        <div class="flexed">
+          <label for="mode">Any Mode</label>
+          <input type="radio" name="mode" id="anyMode" value="AnyMode">
+          <label for="map">Classic</label>
+          <input type="radio" name="mode" id="classic" value="Classic">
+        </div>
+        <div class="flexed">
+          <input type="button" value="SUBMIT" id="submitMission">
+          <input type="reset" value="RESET">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="container">
+    <div class="missionsContainer" id="missionsContainer">
+      <!-- <div class="card">
+        <img src="images/photosnap.svg" class="img-fluid rounded-circle" alt="">
+        <div class="text-wrapper">
+          <div class="whereto">
+            <span class="map">Erangel</span>
+            <span class="mode">Any Mode</span>
+          </div>
+          <h3>Mission Name</h3>
+          <div class="howMuch">
+            <p>20</p>/<p>50</p>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
